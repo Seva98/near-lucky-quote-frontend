@@ -1,7 +1,25 @@
 const Title = ({ children, className, style, level, size }) => {
-  const commonClass = `font-extrabold uppercase w-min mb-4 bg-gradient-to-r from-teal-400 to-pink-500 bg-clip-text text-transparent ${className || ''}`;
+  const commonClass = `font-extrabold uppercase w-min mb-4 bg-gradient-to-r from-pink-500 via-teal-400 to-pink-500 bg-clip-text text-transparent ${className || ''}`;
 
-  const fontSize = size ? `text-${size}xl` : `text-${level}xl`;
+  const sizeArg = size ? size : level;
+  const fontSize =
+    sizeArg === 1
+      ? 'text-xl'
+      : sizeArg === 2
+      ? 'text-2xl'
+      : sizeArg === 3
+      ? 'text-3xl'
+      : sizeArg === 4
+      ? 'text-4xl'
+      : sizeArg === 5
+      ? 'text-5xl'
+      : sizeArg === 6
+      ? 'text-6xl'
+      : sizeArg === 7
+      ? 'text-7xl'
+      : sizeArg === 8
+      ? 'text-8xl'
+      : 'text-9xl';
 
   switch (level) {
     case 1:

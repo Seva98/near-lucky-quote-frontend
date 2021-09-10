@@ -15,7 +15,6 @@ export default function Home() {
         <Title size={7}>Sevcik.dev</Title>
         <Title size={8}>Sevcik.dev</Title>
         <Title size={9}>Sevcik.dev</Title>
-        <div className="text-7xl">TEST</div>
       </div>
     </Layout>
   );
