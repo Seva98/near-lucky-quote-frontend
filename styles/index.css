@@ -21,7 +21,7 @@
     @apply my-4;
   }
   a {
-    @apply text-purple-500;
+    @apply text-teal-primary;
   }
   a:hover {
     @apply text-white;
@@ -30,11 +30,11 @@
     @apply mt-5;
   }
   ::selection {
-    @apply bg-teal-500;
+    @apply bg-pink-primary;
     @apply text-white;
   }
   ::-moz-selection {
-    @apply bg-blue-400;
+    @apply bg-pink-primary;
     @apply text-white;
   }
 }
@@ -64,6 +64,10 @@ button:hover {
   box-shadow: 2px 1000px 1px #1c1917 inset; */
 }
 
+hr {
+  height: 2px;
+}
+
 .logo-pink-glow {
   --tw-drop-shadow: drop-shadow(-6px -6px 1px rgba(241, 85, 255, 0.8));
   filter: var(--tw-drop-shadow);
@@ -81,5 +85,15 @@ button:hover {
 
 .title-teal-glow {
   --tw-drop-shadow: drop-shadow(3px 3px 1px rgba(119, 255, 255, 0.8));
+  filter: var(--tw-drop-shadow);
+}
+
+.button-pink-glow {
+  --tw-drop-shadow: drop-shadow(-3px -2px 1px rgba(241, 85, 255, 0.8));
+  filter: var(--tw-drop-shadow);
+}
+
+.button-teal-glow {
+  --tw-drop-shadow: drop-shadow(3px 2px 1px rgba(119, 255, 255, 0.8));
   filter: var(--tw-drop-shadow);
 }

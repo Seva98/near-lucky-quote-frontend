@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Button from '../components/common/button';
+import Hr from '../components/common/hr';
 import Layout from '../components/common/layout';
 import Title from '../components/common/title';
 import Logo from '../components/logo';
@@ -15,6 +16,7 @@ export default function Home() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et ex, optio quod enim, beatae nihil facilis ab excepturi itaque quisquam ducimus mollitia non illo ipsum nulla accusantium
           pariatur amet!
         </p>
+        <Hr />
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit nostrum rerum dignissimos inventore eligendi. Vitae tempore accusantium rem ab, blanditiis dolores reiciendis? Fugiat optio
           expedita beatae voluptatum, quam explicabo. Laudantium?
@@ -24,7 +26,7 @@ export default function Home() {
           dignissimos. Similique eligendi id sed?
         </p>
         text-3xl border-2 border-transparent py-2 px-4 font-title font-extrabold uppercase w-fit mb-4 bg-gradient-to-r from-pink-primary via-teal-primary to-pink-primary bg-clip-text text-transparent
-        <Button />
+        <Button>Testoavaci vbutton</Button>
         <Title size={1}>Sevcik.dev</Title>
         <Title size={2}>Sevcik.dev</Title>
         <Title size={3}>Sevcik.dev</Title>
