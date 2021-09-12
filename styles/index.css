@@ -15,6 +15,11 @@
   div {
     @apply text-white;
   }
+  p {
+    @apply text-base;
+    @apply font-normal;
+    @apply my-4;
+  }
   a {
     @apply text-purple-500;
   }
@@ -45,3 +50,36 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+body {
+  font-family: Inter, -apple-system, system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+button:hover {
+  color: white;
+  --tw-drop-shadow: drop-shadow(-40px -20px 1px rgba(241, 85, 255, 0.8)) drop-shadow(40px 20px 1px rgba(119, 255, 255, 0.8));
+  filter: var(--tw-filter);
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #1c1917 inset; */
+}
+
+.logo-pink-glow {
+  --tw-drop-shadow: drop-shadow(-6px -6px 1px rgba(241, 85, 255, 0.8));
+  filter: var(--tw-drop-shadow);
+}
+
+.logo-teal-glow {
+  --tw-drop-shadow: drop-shadow(6px 6px 1px rgba(119, 255, 255, 0.8));
+  filter: var(--tw-drop-shadow);
+}
+
+.title-pink-glow {
+  --tw-drop-shadow: drop-shadow(-3px -3px 1px rgba(241, 85, 255, 0.8));
+  filter: var(--tw-drop-shadow);
+}
+
+.title-teal-glow {
+  --tw-drop-shadow: drop-shadow(3px 3px 1px rgba(119, 255, 255, 0.8));
+  filter: var(--tw-drop-shadow);
+}

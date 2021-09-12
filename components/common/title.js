@@ -1,7 +1,11 @@
-const Title = ({ children, className, style, level, size }) => {
-  const commonClass = `font-extrabold uppercase w-min mb-4 bg-gradient-to-r from-pink-500 via-teal-400 to-pink-500 bg-clip-text text-transparent ${className || ''}`;
+import { useEffect, useState } from 'react';
+import useGlitch from '../../lib/useGlitch';
 
-  const sizeArg = size ? size : level;
+const Title = ({ children, className, style, level, size }) => {
+  const glitch = useGlitch('title');
+  const commonClass = `${glitch} font-title font-extrabold uppercase w-fit mb-4 bg-gradient-to-r from-pink-primary to-teal-primary bg-clip-text text-transparent ${className || ''}`;
+
+  const sizeArg = size ? size : 7 - level;
   const fontSize =
     sizeArg === 1
       ? 'text-xl'
