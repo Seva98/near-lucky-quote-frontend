@@ -54,6 +54,10 @@ body {
   font-family: Inter, -apple-system, system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
+hr {
+  height: 2px;
+}
+
 button:hover {
   color: white;
   --tw-drop-shadow: drop-shadow(-40px -20px 1px rgba(241, 85, 255, 0.8)) drop-shadow(40px 20px 1px rgba(119, 255, 255, 0.8));
@@ -62,10 +66,6 @@ button:hover {
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #1c1917 inset; */
-}
-
-hr {
-  height: 2px;
 }
 
 .logo-pink-glow {
@@ -96,4 +96,25 @@ hr {
 .button-teal-glow {
   --tw-drop-shadow: drop-shadow(3px 2px 1px rgba(119, 255, 255, 0.8));
   filter: var(--tw-drop-shadow);
+}
+
+.card-glow {
+  position: relative;
+}
+.card-glow:before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+  filter: blur(8px);
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.card-glow:hover:before {
+  opacity: 0.3;
 }

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Button from '../components/common/button';
+import Card from '../components/common/card';
 import Hr from '../components/common/hr';
 import Layout from '../components/common/layout';
 import Title from '../components/common/title';
@@ -21,6 +22,11 @@ export default function Home() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit nostrum rerum dignissimos inventore eligendi. Vitae tempore accusantium rem ab, blanditiis dolores reiciendis? Fugiat optio
           expedita beatae voluptatum, quam explicabo. Laudantium?
         </p>
+        <Hr />
+        <Card title="NOVARTIS" subtitle="sub title sub">
+          text
+        </Card>
+        <Hr />
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, exercitationem magni assumenda accusamus ullam illum est quaerat neque id. Molestiae nulla est quod, consequatur natus
           dignissimos. Similique eligendi id sed?
