@@ -1,3 +1,5 @@
+import cv from '../data/cv.json';
+
 import Head from 'next/head';
 import Button from '../components/common/button';
 import Card from '../components/common/card';
@@ -5,14 +7,16 @@ import Hr from '../components/common/hr';
 import Layout from '../components/common/layout';
 import Title from '../components/common/title';
 import Logo from '../components/logo';
+import CvCard from '../components/cv/cvCard';
+import Subtitle from '../components/common/subtitle';
 
-export default function Home() {
+export default function Home({ work }) {
   return (
     <Layout>
       <div className="my-12 max-w-3xl mx-auto">
         <Logo />
         <Title level={1}>Lorem ipsum generator</Title>
-        <div className="font-subtitle -mt-6 mb-4 text-gray-300 text-lg drop-shadow-brand">by Ondrej Sevcik, {new Date().toLocaleString()}</div>
+        <Subtitle>by Ondrej Sevcik, {new Date().toLocaleString()}</Subtitle>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et ex, optio quod enim, beatae nihil facilis ab excepturi itaque quisquam ducimus mollitia non illo ipsum nulla accusantium
           pariatur amet!
@@ -23,9 +27,13 @@ export default function Home() {
           expedita beatae voluptatum, quam explicabo. Laudantium?
         </p>
         <Hr />
-        <Card title="NOVARTIS" subtitle="sub title sub">
-          text
-        </Card>
+        <div className="flex gap-x-0 justify-center">
+          <Button>Programming</Button>
+          <Button>Other</Button>
+        </div>
+        {work.map((w) => (
+          <CvCard work={w} key={w.company} />
+        ))}
         <Hr />
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, exercitationem magni assumenda accusamus ullam illum est quaerat neque id. Molestiae nulla est quod, consequatur natus
@@ -45,4 +53,16 @@ export default function Home() {
       </div>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  const { work, education, skills } = cv;
+
+  return {
+    props: {
+      work,
+      education,
+      skills,
+    },
+  };
 }

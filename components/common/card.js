@@ -2,13 +2,14 @@ import useGlitch from '../../lib/useGlitch';
 import Title from '../common/title';
 
 const Card = (props) => {
-  const { title, subtitle, text, children, className } = props;
+  const { children, className } = props;
+
+  const glitch = useGlitch('button');
   return (
-    <div className={`${className || ''} card-glow bg-gray-800 m-5 p-5 w-fit h-fit`} {...props}>
-      <Title size={4}>{title}</Title>
-      <div>{subtitle}</div>
-      <div>{text}</div>
-      {children}
+    <div className={`${glitch} card-glow w-full relative mb-10 ${className || ''}`}>
+      <div className={`card bg-gray-800 p-7`} {...props}>
+        {children}
+      </div>
     </div>
   );
 };

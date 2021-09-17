@@ -16,15 +16,29 @@
     @apply text-white;
   }
   p {
-    @apply text-base;
-    @apply font-normal;
-    @apply my-4;
+    @apply text-lg;
+    @apply my-5;
+  }
+  blockquote {
+    @apply border-white;
+    @apply p-4;
+    @apply italic;
+    @apply text-gray-200;
+    @apply bg-gradient-to-r from-pink-primary to-teal-primary bg-clip-text text-transparent;
+    @apply text-lg;
+    @apply font-semibold;
   }
   a {
     @apply text-teal-primary;
   }
   a:hover {
     @apply text-white;
+  }
+  ul {
+    @apply my-5;
+  }
+  li {
+    @apply pl-7 my-3;
   }
   hr {
     @apply mt-5;
@@ -39,8 +53,15 @@
   }
 }
 
+@layer components {
+  .lead {
+    @apply text-2xl;
+  }
+}
+
 /* Start purging... */
 @tailwind components;
+
 /* Stop purging. */
 
 /* Write you own custom component styles here */
@@ -50,9 +71,9 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
-body {
+/* body {
   font-family: Inter, -apple-system, system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
+} */
 
 hr {
   height: 2px;
@@ -100,21 +121,15 @@ button:hover {
 
 .card-glow {
   position: relative;
-}
-.card-glow:before {
-  content: '';
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
-  filter: blur(8px);
-  opacity: 1;
-  transition: opacity 1s;
+  background: linear-gradient(90deg, #ff48fa, #78e4ff);
+  padding: 2px;
 }
 
-.card-glow:hover:before {
-  opacity: 0.3;
+ul {
+  /* list-style-type: '\1F449'; */
+  list-style-image: url('/images/bullet.svg');
+  list-style-position: inside;
+}
+li::marker {
+  margin-right: 24px;
 }

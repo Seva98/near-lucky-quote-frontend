@@ -1,0 +1,288 @@
+{
+  "basics": {
+    "name": "Ing. Ondrej Sevcik",
+    "label": "Programmer",
+    "picture": "",
+    "email": "o.sevcik91@gmail.com",
+    "phone": "+420 774 577 976",
+    "website": "https://sevcik.dev",
+    "summary": "",
+    "location": {
+      "countryCode": "CZ"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ondrej-sevcik",
+        "url": "https://www.linkedin.com/in/ondrej-sevcik/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "HCL Technologies",
+      "position": "Splunk SOC Onboarding Engineer",
+      "website": "https://www.hcltech.com/",
+      "startDate": "06/2020",
+      "endDate": "Present (part-time)",
+      "summary": [
+        "I've been working for Big Pharma client and being part of Security Operations Team as Splunk consultant where I was making sure that client's application are correctly onboarded the client's Splunk instances.",
+        "My work involved taking care of full process from the first contact of the application owner to having app fully onboarded, tested and configured in Splunk.",
+        "I've also worked on multiple tasks related to writing SPL queries to make regular checks of apps that are currently being onboarded and making reports from those queries."
+      ],
+      "technology": ["hcl.png", "splunk.png"],
+      "highlights": [
+        "Onboarding client's internal applications to Splunk",
+        "Managing full process from the first contact with application manager to the fully onboarded and tested application in Splunk",
+        "Working with universal and heavy forwarders",
+        "Working with Common Information Model",
+        "Following high security standards",
+        "Creating SPL queries for custom alerts",
+        "Creating reports about onboarding status"
+      ]
+    },
+    {
+      "company": "Robotron Datenbank-Software GmbH",
+      "position": "Splunk & React Developer",
+      "website": "https://robotron.de",
+      "startDate": "01/2019",
+      "endDate": "10/2020",
+      "summary": [
+        "During Q2 & Q3 of 2020 I've worked as React Front End Project Lead for client Linde where I was developing multiple industrial operations dashboards.<br>Both projects included multiple custom visualization dashboards using Plotly.js and Recharts libraries.",
+        "I've been working as Splunk Developer for several huge clients from automotive industry.<br>Most of the time I've been working with JavaScript developing custom Splunk applications and custom Splunk visualisations on those dashboards.",
+        "I've been also debugging and creating multiple SPL queries and even creating multiple Custom Search Commands in Python for highly complex computations like cosine distance, correlation matrix etc.<br>On top of that, I've also developed Splunk Reporting application that takes series of Splunk queries and generates ISO 50001 compliant PDF and DOCX report for management."
+      ],
+      "technology": ["robotron.png", "splunk.png", "javascript.png", "react.png"],
+      "highlights": [
+        "I've worked as React Front End Project Lead on two projects for Linde",
+        "60% Front End Modern ES6+ Javascript + SplunkJS (Developing Splunk's apps)",
+        "30% Splunk Search and Configuration",
+        "10% Splunk Python's (Custom search commands)",
+        "Long term project of tracking key production statistics of upcoming electric vehicles",
+        "Long term project of IT tickets tracking app using custom force directed visualization for leader in automotive industry",
+        "Continously worked on Splunk's app development focused on energetic management following ISO 50001 standard"
+      ]
+    },
+    {
+      "company": "Code Marketer s.r.o.",
+      "position": "CEO / FULL STACK DEVELOPER",
+      "website": "https://sevcik.dev",
+      "startDate": "05/2012",
+      "endDate": "Present",
+      "summary": [
+        "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
+        "One of the notable apps I've created is <a href='https://wodtimecalculator.com/' target='_blank'>WOD Time Calculator</a>."
+      ],
+      "technology": ["vue.png", "swift.png", "javascript.png", "marketing.png"],
+      "highlights": [
+        "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
+        "Web apps in Vue.js, React and MongoDB",
+        "Blogs in Jekyll or Wordpress",
+        "Online shops in PrestaShop and WooCommerce",
+        "Online shop created in React for local farm delivery",
+        "iOS apps in Swift",
+        "Android apps in Java/Kotlin",
+        "Online marketing - focus on content marketing and newsletters",
+        "Social media marketing - focus on Instagram and Facebook sales boosts"
+      ]
+    },
+    {
+      "company": "Profiq s.r.o.",
+      "position": "Software Developer",
+      "website": "https://profiq.cz",
+      "startDate": "10/2018",
+      "endDate": "01/2019",
+      "summary": ["After years of working on my own I accepted offer for full-time software developer job to learn to work with team and find out more about new technologies"],
+      "technology": ["profiq.png", "node.png", "python.png"],
+      "highlights": [
+        "Learned about JavaScript testing with Jest and Mocha",
+        "Greatly improved my git skills",
+        "Worked on a few internal Node.js apps",
+        "Build CI/CD in GitLab for internal apps",
+        "Experienced working with Jenkins, React, GraphQL, SCSS, Pug and more",
+        "Learned to use several frameworks in Python like Behave and Selenium",
+        "Worked on end-to-end tests integration for antivirus leader in Python"
+      ]
+    },
+    {
+      "company": "Lionbridge Oy / Lionbridge",
+      "position": "QA Manager / Internet Assesor",
+      "website": "https://lionbridge.com",
+      "startDate": "05/2012",
+      "endDate": "Present",
+      "summary": [
+        "Long term project based work where I have been part of rating team and later QA team for dozens of different projects ranging from evaluating search results to improving voice commands of smart devices.<br>Very flexible part-time fully remote search evaluator to fill times in between projects."
+      ],
+      "technology": ["lionbridge.png"],
+      "highlights": [
+        "Managing work of Czech raters for transcription, voice commands and word categorization projects",
+        "Improving search results of one of the leading search engines",
+        "Evaluating automated translations",
+        "Evaluating pages quality and helping to identify malevolent websites"
+      ]
+    },
+    {
+      "company": "IN PARK Fitness s.r.o.",
+      "position": "Functional Fitness Instructor",
+      "website": "https://www.fitpark.cz/",
+      "startDate": "05/2015",
+      "endDate": "06/2020",
+      "summary": ["Just a few classes per week as functional fitness coach in local gym."],
+      "technology": ["fitpark.jpg"],
+      "highlights": ["Stregth and conditiong workouts with focus on long terms progression of clients"]
+    },
+    {
+      "company": "Webgears Germany GmbH",
+      "position": "Voucher Coordinator",
+      "website": "https://www.webgears-group.com/",
+      "startDate": "04/2015",
+      "endDate": "11/2018",
+      "summary": ["Coordinating voucher codes and deals for websites operating in several different countries, making sure that codes/deals work and are up to date"],
+      "technology": ["vbox.png"],
+      "highlights": [
+        "Making sure that several locations (Germany, United Kingdom, United States of America and Canada) have voucher up to date",
+        "Taking care of the exclusive deals/vouchers and managing them"
+      ]
+    },
+    {
+      "company": "Colliery CrossFit",
+      "position": "CrossFit Instructor",
+      "website": "https://www.fitpark.cz/",
+      "startDate": "03/2014",
+      "endDate": "04/2014",
+      "summary": ["Leading up CrossFit classes of 10 to 20 people"],
+      "technology": ["colliery.png"],
+      "highlights": ["Several CrossFit classes per day for people of all fitness levels", "Managing operations of gym for half of the week"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Slezska Univerzita v Opave",
+      "area": "Marketing and Management",
+      "website": "https://www.slu.cz/opf/en/",
+      "studyType": "Masters",
+      "startDate": "2015",
+      "endDate": "2017",
+      "image": ["opf.png"],
+      "highlights": ["Winner of best Master's Thesis", "Thesis about Online Marketing of Fitness Internet Blog", "Education focused on advanced marketing, management, economics, trade and accounting"]
+    },
+    {
+      "institution": "Technical University of Ostrava",
+      "area": "Marketing and Management",
+      "website": "https://www.ekf.vsb.cz/en",
+      "studyType": "Bachelor",
+      "startDate": "2011",
+      "endDate": "2015",
+      "image": ["ekf.png"],
+      "highlights": [
+        "I've willingly took as much classes as possible in English",
+        "Thesis about Client Satisfaction Measurement of the Sports Centre",
+        "Education focused on marketing, management, economics, trade and accounting"
+      ]
+    },
+    {
+      "institution": "Brno University of Technology",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2010",
+      "endDate": "2011",
+      "image": ["vut.png"],
+      "highlights": ["Basics of IT and software development", "Premateruly terminated study, got back to software development few years later"]
+    },
+    {
+      "institution": "Industrial High School of Electrotechnics and IT, Frenstat pod Radhostem",
+      "area": "Electrotechnic/Computers Technology",
+      "studyType": "Graduation",
+      "startDate": "2006",
+      "endDate": "2010",
+      "image": ["spse.png"],
+      "highlights": ["Computer Science", "Programming of PLC", "Assembly programming", "Websites programming", "Electrical engineering", "University level mathematics"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Currently working with",
+      "names": [
+        "Splunk",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Vue.js",
+        "ES6",
+        "MongoDB Stitch",
+        "jQuery",
+        "SplunkJS",
+        "Python",
+        "Splunk's Python SDK",
+        "MQTT",
+        "Jekyll",
+        "CSS/SCSS/SASS/LESS",
+        "Bulma",
+        "Linux - Bash",
+        "GitHub",
+        "Azure DevOps",
+        "Scrum",
+        "Unity",
+        "C#"
+      ]
+    },
+    {
+      "category": "Currently learning",
+      "names": ["ReactNative"]
+    },
+    {
+      "category": "Worked with (a lot)",
+      "names": [
+        "Swift 3/4",
+        "Java (Android)",
+        "Kotlin (Android)",
+        "PHP",
+        "MySQL",
+        "NoSQL",
+        "RealmDB",
+        "Node.js",
+        "Express",
+        "Firebase/Firestore",
+        "WordPress API",
+        "WooCommerce",
+        "PrestaShop",
+        "Bootstrap",
+        "Jest",
+        "GitLab",
+        "CI/CD",
+        "YAML",
+        "Jira"
+      ]
+    },
+    {
+      "category": "Worked with (less)",
+      "names": ["Angular", "Java", "Perl", "Objective-C", "Selenium", "Behave", "SVN"]
+    },
+    {
+      "category": "Familiar with (non-programming)",
+      "names": [
+        "Sketch",
+        "Material design",
+        "iOS design guidelines",
+        "Social media marketing",
+        "Newsletter/List building marketing",
+        "SEO/Content marketing",
+        "Video editing",
+        "QA",
+        "Leading projects"
+      ]
+    }
+  ]
+}
