@@ -15,7 +15,7 @@ export default function Home({ work }) {
     <Layout>
       <div className="my-12 max-w-3xl mx-auto">
         <Logo />
-        <Title level={1}>Lorem ipsum generator</Title>
+        {/* <Title level={1}>Lorem ipsum generator</Title>
         <Subtitle>by Ondrej Sevcik, {new Date().toLocaleString()}</Subtitle>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et ex, optio quod enim, beatae nihil facilis ab excepturi itaque quisquam ducimus mollitia non illo ipsum nulla accusantium
@@ -49,7 +49,7 @@ export default function Home({ work }) {
         <Title size={6}>Sevcik.dev</Title>
         <Title size={7}>Sevcik.dev</Title>
         <Title size={8}>Sevcik.dev</Title>
-        <Title size={9}>Sevcik.dev</Title>
+        <Title size={9}>Sevcik.dev</Title> */}
       </div>
     </Layout>
   );

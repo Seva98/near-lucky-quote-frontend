@@ -18,33 +18,77 @@
       }
     ]
   },
+  "freelancing": [],
   "work": [
     {
-      "company": "HCL Technologies",
-      "position": "Splunk SOC Onboarding Engineer",
-      "website": "https://www.hcltech.com/",
-      "startDate": "06/2020",
-      "endDate": "Present (part-time)",
-      "summary": [
-        "I've been working for Big Pharma client and being part of Security Operations Team as Splunk consultant where I was making sure that client's application are correctly onboarded the client's Splunk instances.",
-        "My work involved taking care of full process from the first contact of the application owner to having app fully onboarded, tested and configured in Splunk.",
-        "I've also worked on multiple tasks related to writing SPL queries to make regular checks of apps that are currently being onboarded and making reports from those queries."
-      ],
-      "technology": ["hcl.png", "splunk.png"],
-      "highlights": [
-        "Onboarding client's internal applications to Splunk",
-        "Managing full process from the first contact with application manager to the fully onboarded and tested application in Splunk",
-        "Working with universal and heavy forwarders",
-        "Working with Common Information Model",
-        "Following high security standards",
-        "Creating SPL queries for custom alerts",
-        "Creating reports about onboarding status"
+      "company": "Novartis",
+      "website": "https://www.novartis.com/",
+      "positions": [
+        {
+          "position": "Splunk SOC Onboarding Engineer\n(Security Operations Centre)",
+          "startDate": "06/2020",
+          "endDate": "Present",
+          "technologies": ["splunk", "regex", "python", "windows", "rhel", "oracle", "postgre", "azure", "aws", "salesforce"],
+          "summary": [
+            "Managing the process of onboarding security logs from internal applications running multiple different technologies to the Splunk.",
+            "Experience with onboarding security logs of MS WIN, RHEL, AIX, Solaris, MSSQL, Oracle DB, PostgreSQL, Azure, AWS, MS IIS, Cisco, SalesForce, IBM SVC, and custom vendor appliances"
+          ],
+          "highlights": [
+            "Having full responsibility over the complete onboarding process of an application onboarding from gathering configuration items scope to onboarding process itself and proper documentation of the full process",
+            "Working in a strictly confidential and process driven environment of big pharma",
+            "Onboarding technologies via Universal Forwarder, syslog, API and custom Python scripts",
+            "Working with Splunk's configuration files, creating custom indexes/sourcetypes, modifying parsing and transformation rules",
+            "Managed process of updating all custom applications from Python 2 to Python 3",
+            "Developed several custom Splunk dashboards to give an overview of current onboarding status",
+            "Daily experience with Splunk's SPL, SNOW, JIRA and Confluence"
+          ]
+        }
       ]
     },
     {
       "company": "Robotron Datenbank-Software GmbH",
       "position": "Splunk & React Developer",
       "website": "https://robotron.de",
+      "positions": [
+        {
+          "position": "Splunk SOC Onboarding Engineer\n(Security Operations Centre)",
+          "startDate": "06/2020",
+          "endDate": "Present",
+          "technologies": ["splunk", "regex", "python", "windows", "rhel", "oracle", "postgre", "azure", "aws", "salesforce"],
+          "summary": [
+            "Managing the process of onboarding security logs from internal applications running multiple different technologies to the Splunk.",
+            "Experience with onboarding security logs of MS WIN, RHEL, AIX, Solaris, MSSQL, Oracle DB, PostgreSQL, Azure, AWS, MS IIS, Cisco, SalesForce, IBM SVC, and custom vendor appliances"
+          ],
+          "highlights": [
+            "Having full responsibility over the complete onboarding process of an application onboarding from gathering configuration items scope to onboarding process itself and proper documentation of the full process",
+            "Working in a strictly confidential and process driven environment of big pharma",
+            "Onboarding technologies via Universal Forwarder, syslog, API and custom Python scripts",
+            "Working with Splunk's configuration files, creating custom indexes/sourcetypes, modifying parsing and transformation rules",
+            "Managed process of updating all custom applications from Python 2 to Python 3",
+            "Developed several custom Splunk dashboards to give an overview of current onboarding status",
+            "Daily experience with Splunk's SPL, SNOW, JIRA and Confluence"
+          ]
+        },
+        {
+          "position": "Splunk SOC Onboarding Engineer\n(Security Operations Centre)",
+          "startDate": "06/2020",
+          "endDate": "Present",
+          "technologies": ["splunk", "regex", "python", "windows", "rhel", "oracle", "postgre", "azure", "aws", "salesforce"],
+          "summary": [
+            "Managing the process of onboarding security logs from internal applications running multiple different technologies to the Splunk.",
+            "Experience with onboarding security logs of MS WIN, RHEL, AIX, Solaris, MSSQL, Oracle DB, PostgreSQL, Azure, AWS, MS IIS, Cisco, SalesForce, IBM SVC, and custom vendor appliances"
+          ],
+          "highlights": [
+            "Having full responsibility over the complete onboarding process of an application onboarding from gathering configuration items scope to onboarding process itself and proper documentation of the full process",
+            "Working in a strictly confidential and process driven environment of big pharma",
+            "Onboarding technologies via Universal Forwarder, syslog, API and custom Python scripts",
+            "Working with Splunk's configuration files, creating custom indexes/sourcetypes, modifying parsing and transformation rules",
+            "Managed process of updating all custom applications from Python 2 to Python 3",
+            "Developed several custom Splunk dashboards to give an overview of current onboarding status",
+            "Daily experience with Splunk's SPL, SNOW, JIRA and Confluence"
+          ]
+        }
+      ],
       "startDate": "01/2019",
       "endDate": "10/2020",
       "summary": [

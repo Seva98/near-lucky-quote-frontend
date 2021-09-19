@@ -3,7 +3,9 @@ import useGlitch from '../../lib/useGlitch';
 
 const Title = ({ children, className, style, level, size }) => {
   const glitch = useGlitch('title');
-  const commonClass = `${glitch} font-title font-extrabold uppercase w-fit mb-4 bg-gradient-to-r from-pink-primary to-teal-primary bg-clip-text text-transparent ${className || ''}`;
+  const commonClass = `${glitch} font-title font-extrabold uppercase w-fit mb-4 bg-gradient-to-r from-pink-primary to-teal-primary bg-clip-text text-transparent whitespace-pre-line ${
+    className || ''
+  }`;
 
   const sizeArg = size ? size : 7 - level;
   const fontSize =
