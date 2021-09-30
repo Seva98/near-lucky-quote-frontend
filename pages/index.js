@@ -25,7 +25,7 @@ export default function Home({ work, education }) {
     <Layout>
       <div className="my-12 max-w-3xl mx-auto">
         <Logo />
-        <Title level={1}>Ing. Ondrej Sevcik</Title>
+        {/* <Title level={1}>Ing. Ondrej Sevcik</Title>
         <Subtitle>Full Stack Splunk, React and (to be) Blockchain Developer</Subtitle>
         <Intro />
         <Title level={2}>Skill set</Title>
@@ -47,7 +47,7 @@ export default function Home({ work, education }) {
         <Title level={2}>Formal education</Title>
         {education.map((edu) => (
           <EducationCard education={edu} key={edu.institution} />
-        ))}
+        ))} */}
       </div>
     </Layout>
   );
