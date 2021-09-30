@@ -40,9 +40,6 @@
   li {
     @apply pl-7 my-3;
   }
-  hr {
-    @apply mt-5;
-  }
   ::selection {
     @apply bg-pink-primary;
     @apply text-white;
@@ -117,6 +114,13 @@ button:hover {
 .button-teal-glow {
   --tw-drop-shadow: drop-shadow(3px 2px 1px rgba(119, 255, 255, 0.8));
   filter: var(--tw-drop-shadow);
+}
+
+.button-active {
+  --tw-drop-shadow-pink: drop-shadow(-15px -4px 2px rgba(241, 85, 255, 0.8));
+  --tw-drop-shadow-teal: drop-shadow(15px 4px 2px rgba(119, 255, 255, 0.8));
+  filter: var(--tw-drop-shadow-pink) var(--tw-drop-shadow-teal);
+  color: white;
 }
 
 .card-glow {

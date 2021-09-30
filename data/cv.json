@@ -28,9 +28,9 @@
           "position": "Splunk SOC Onboarding Engineer\n(Security Operations Centre)",
           "startDate": "06/2020",
           "endDate": "Present",
-          "technologies": ["splunk", "regex", "python", "windows", "rhel", "oracle", "postgre", "azure", "aws", "salesforce"],
+          "technologies": ["splunk", "regex", "python", "windows", "rhel", "oracle", "postgre", "azure", "aws", "salesforce", "jira"],
           "summary": [
-            "Managing the process of onboarding security logs from internal applications running multiple different technologies to the Splunk.",
+            "Managing the process of onboarding security logs from internal applications running multiple different technologies to the Splunk",
             "Experience with onboarding security logs of MS WIN, RHEL, AIX, Solaris, MSSQL, Oracle DB, PostgreSQL, Azure, AWS, MS IIS, Cisco, SalesForce, IBM SVC, and custom vendor appliances"
           ],
           "highlights": [
@@ -40,6 +40,7 @@
             "Working with Splunk's configuration files, creating custom indexes/sourcetypes, modifying parsing and transformation rules",
             "Managed process of updating all custom applications from Python 2 to Python 3",
             "Developed several custom Splunk dashboards to give an overview of current onboarding status",
+            "The first month of onboarding process to this job position included passing internal Splunk Power User, Splunk Enterprise Admin and Splunk Enterprise Architect coursework with tests",
             "Daily experience with Splunk's SPL, SNOW, JIRA and Confluence"
           ]
         }
@@ -51,41 +52,41 @@
       "website": "https://robotron.de",
       "positions": [
         {
-          "position": "Splunk SOC Onboarding Engineer\n(Security Operations Centre)",
-          "startDate": "06/2020",
-          "endDate": "Present",
-          "technologies": ["splunk", "regex", "python", "windows", "rhel", "oracle", "postgre", "azure", "aws", "salesforce"],
+          "position": "Splunk Developer",
+          "startDate": "01/2019",
+          "endDate": "05/2020",
+          "technologies": ["splunk", "javascript", "python", "azure"],
           "summary": [
-            "Managing the process of onboarding security logs from internal applications running multiple different technologies to the Splunk.",
-            "Experience with onboarding security logs of MS WIN, RHEL, AIX, Solaris, MSSQL, Oracle DB, PostgreSQL, Azure, AWS, MS IIS, Cisco, SalesForce, IBM SVC, and custom vendor appliances"
+            "For 1.5 years worked in a small team with excellent mentor who was Splunk Enterprise Certified Architect and learned everything from SPL to onboarding data, configuration files and deployment",
+            "Working on multiple custom build Splunk dashboards by leveraging and extending SplunkJS functionality",
+            "Creating several Splunk applications and custom search commands in a Python3"
           ],
           "highlights": [
-            "Having full responsibility over the complete onboarding process of an application onboarding from gathering configuration items scope to onboarding process itself and proper documentation of the full process",
-            "Working in a strictly confidential and process driven environment of big pharma",
-            "Onboarding technologies via Universal Forwarder, syslog, API and custom Python scripts",
+            "Co-developed custom build Predictive Analysis visualization extending Machine Learning Toolkit and SplunkJS",
+            "Creating new custom dashboards of robotron*IPEA (Industrial Process and Energy Analytics) add-on",
+            "Developed add-on that could be used for MQTT IoT inputs",
+            "Developed add-on that was able to generate ISO 50001 energy management PDF reports from robotron*IPEA data",
+            "Configuring Universal Forwarder in multiple projects",
             "Working with Splunk's configuration files, creating custom indexes/sourcetypes, modifying parsing and transformation rules",
-            "Managed process of updating all custom applications from Python 2 to Python 3",
-            "Developed several custom Splunk dashboards to give an overview of current onboarding status",
-            "Daily experience with Splunk's SPL, SNOW, JIRA and Confluence"
+            "Developing multi-language support of custom build dashboards with i18n"
           ]
         },
         {
-          "position": "Splunk SOC Onboarding Engineer\n(Security Operations Centre)",
+          "position": "Lead Front End React Developer",
           "startDate": "06/2020",
-          "endDate": "Present",
-          "technologies": ["splunk", "regex", "python", "windows", "rhel", "oracle", "postgre", "azure", "aws", "salesforce"],
+          "endDate": "10/2020",
+          "technologies": ["react", "javascript", "typescript", "azure"],
           "summary": [
-            "Managing the process of onboarding security logs from internal applications running multiple different technologies to the Splunk.",
-            "Experience with onboarding security logs of MS WIN, RHEL, AIX, Solaris, MSSQL, Oracle DB, PostgreSQL, Azure, AWS, MS IIS, Cisco, SalesForce, IBM SVC, and custom vendor appliances"
+            "Alternative position offered by Robotron for a short time after Covid-19 paralyzed the economy and automotive sector",
+            "I've been working as Front End Lead of two React applications developed for Linde",
+            "The goal was to match UI/UX between the projects and have it standardized through all dashboards"
           ],
           "highlights": [
-            "Having full responsibility over the complete onboarding process of an application onboarding from gathering configuration items scope to onboarding process itself and proper documentation of the full process",
-            "Working in a strictly confidential and process driven environment of big pharma",
-            "Onboarding technologies via Universal Forwarder, syslog, API and custom Python scripts",
-            "Working with Splunk's configuration files, creating custom indexes/sourcetypes, modifying parsing and transformation rules",
-            "Managed process of updating all custom applications from Python 2 to Python 3",
-            "Developed several custom Splunk dashboards to give an overview of current onboarding status",
-            "Daily experience with Splunk's SPL, SNOW, JIRA and Confluence"
+            "The first goal was to agree on UI/UX and create library of reusable components build on top of the Material UI",
+            "Developed total of eight dashboards across two projects that included several advanced visualization based on client's requirements",
+            "Integrating several libraries like Redux for state management, React Router for routing or Plotly.js for custom data visualizations",
+            "Securing access to different parts of applications based on set multitenancy architecture",
+            "Development of both applications has been done in a TypeScript"
           ]
         }
       ],
@@ -132,71 +133,113 @@
     },
     {
       "company": "Profiq s.r.o.",
-      "position": "Software Developer",
       "website": "https://profiq.cz",
-      "startDate": "10/2018",
-      "endDate": "01/2019",
-      "summary": ["After years of working on my own I accepted offer for full-time software developer job to learn to work with team and find out more about new technologies"],
-      "technology": ["profiq.png", "node.png", "python.png"],
-      "highlights": [
-        "Learned about JavaScript testing with Jest and Mocha",
-        "Greatly improved my git skills",
-        "Worked on a few internal Node.js apps",
-        "Build CI/CD in GitLab for internal apps",
-        "Experienced working with Jenkins, React, GraphQL, SCSS, Pug and more",
-        "Learned to use several frameworks in Python like Behave and Selenium",
-        "Worked on end-to-end tests integration for antivirus leader in Python"
+      "positions": [
+        {
+          "position": "Junior Developer Intership",
+          "startDate": "10/2018",
+          "endDate": "11/2018",
+          "technologies": ["javascript", "typescript", "node", "python", "ubuntu"],
+          "summary": [
+            "After a few years of freelancing, I've been contacted by Profiq for my first ever software developer position",
+            "The intership consisted of creating new features for internal Node.js apps, learning to work with a team and with a git",
+            "After the first month, I've been promoted to full time position"
+          ],
+          "highlights": [
+            "Significantly improved in team skills like git, projects workflow and code structuring",
+            "Learned how software developers actually work and how they solve solutions in a team",
+            "Learned a lot of about Node.js back-end and CI/CD",
+            "Spent a lot of time working with headless Linux environment and got familiar with a Terminal"
+          ]
+        },
+        {
+          "position": "Junior QA Python Developer",
+          "startDate": "11/2018",
+          "endDate": "01/2019",
+          "technologies": ["python", "selenium"],
+          "summary": [
+            "Worked on creation of automated E2E tests with Python, Behave and Selenium for a client Avast",
+            "The goal was to create Python scripts that will mirror user's behavior in the application to fire certain marketing scenarios, these scripts were later used during integration of new versions of Avast to make sure everything is working correctly",
+            "First ever experience with a Scrum",
+            "I've been working on this position for only 3 months because I've recieved offer much more interesting offer from Robotron"
+          ],
+          "highlights": [
+            "Even though Profiq is smaller company, the work included a lot communication with Avast and learned me about processes, security and work ethic in such corporations",
+            "Work followed Scrum framework with 2-week Sprints, we had daily team stand-ups and weekly meetings with Avast, we were able to deliver new tests on bi-weekly basis",
+            "Project followed modern standards with automated deployment, working CI/CD, code reviews, pull requests and proper documentation",
+            "I've left for much better offer in Robotron but I am still looking back to this position as one of the best learning experiences I've ever had"
+          ]
+        }
       ]
     },
     {
-      "company": "Lionbridge Oy / Lionbridge",
-      "position": "QA Manager / Internet Assesor",
+      "company": "Lionbridge",
       "website": "https://lionbridge.com",
-      "startDate": "05/2012",
-      "endDate": "Present",
-      "summary": [
-        "Long term project based work where I have been part of rating team and later QA team for dozens of different projects ranging from evaluating search results to improving voice commands of smart devices.<br>Very flexible part-time fully remote search evaluator to fill times in between projects."
-      ],
-      "technology": ["lionbridge.png"],
-      "highlights": [
-        "Managing work of Czech raters for transcription, voice commands and word categorization projects",
-        "Improving search results of one of the leading search engines",
-        "Evaluating automated translations",
-        "Evaluating pages quality and helping to identify malevolent websites"
+      "positions": [
+        {
+          "position": "Internet Assesor",
+          "startDate": "05/2012",
+          "endDate": "12/2019",
+          "technologies": ["google"],
+          "summary": [
+            "Long term project based work where I have been part of rating team for dozens of different projects ranging from evaluating search results to improving voice commands of smart devices."
+          ],
+          "highlights": ["Improving search results of the leading search engines", "Evaluating automated translations", "Evaluating pages quality and helping to identify malevolent websites"]
+        },
+        {
+          "position": "Czech Raters QA Manager",
+          "startDate": "01/2018",
+          "endDate": "12/2019",
+          "technologies": ["google"],
+          "summary": ["I've started on different project that was in parallel with Internet Assesor and been doing QA of their work and managing their workflow"],
+          "highlights": [
+            "The work consisted of making sure quality standards follow client's guidelines, making changes to the guidelines and managing raters workload",
+            "The goal was to evaluate sets of audios and making sure transcriptions are gramatically correct and follow set of formating rules"
+          ]
+        }
       ]
     },
     {
       "company": "IN PARK Fitness s.r.o.",
-      "position": "Functional Fitness Instructor",
       "website": "https://www.fitpark.cz/",
-      "startDate": "05/2015",
-      "endDate": "06/2020",
-      "summary": ["Just a few classes per week as functional fitness coach in local gym."],
-      "technology": ["fitpark.jpg"],
-      "highlights": ["Stregth and conditiong workouts with focus on long terms progression of clients"]
+      "positions": [
+        {
+          "position": "CrossFit L1 Trainer",
+          "startDate": "05/2015",
+          "endDate": "present",
+          "technologies": ["crossfit"],
+          "summary": ["Working as CrossFit Level 1 Certified Trainer", "Two classes of CrossFit per week in a nearby gym"],
+          "highlights": ["Stregth and conditiong workouts with focus on long terms progression of clients"]
+        }
+      ]
     },
     {
       "company": "Webgears Germany GmbH",
-      "position": "Voucher Coordinator",
       "website": "https://www.webgears-group.com/",
-      "startDate": "04/2015",
-      "endDate": "11/2018",
-      "summary": ["Coordinating voucher codes and deals for websites operating in several different countries, making sure that codes/deals work and are up to date"],
-      "technology": ["vbox.png"],
-      "highlights": [
-        "Making sure that several locations (Germany, United Kingdom, United States of America and Canada) have voucher up to date",
-        "Taking care of the exclusive deals/vouchers and managing them"
+      "positions": [
+        {
+          "position": "Voucher Coordinator",
+          "startDate": "04/2015",
+          "endDate": "11/2018",
+          "technologies": [],
+          "summary": ["Coordinating voucher codes and deals for websites operating in several different countries, making sure that codes/deals work and are up to date"],
+          "highlights": ["Making sure that several locations (Germany, United Kingdom, United States of America and Canada) have voucher up to date"]
+        }
       ]
     },
     {
       "company": "Colliery CrossFit",
-      "position": "CrossFit Instructor",
-      "website": "https://www.fitpark.cz/",
-      "startDate": "03/2014",
-      "endDate": "04/2014",
-      "summary": ["Leading up CrossFit classes of 10 to 20 people"],
-      "technology": ["colliery.png"],
-      "highlights": ["Several CrossFit classes per day for people of all fitness levels", "Managing operations of gym for half of the week"]
+      "website": "https://www.collierycrossfit.cz/",
+      "positions": [
+        {
+          "position": "CrossFit L1 Trainer",
+          "startDate": "03/2014",
+          "endDate": "04/2015",
+          "technologies": ["crossfit"],
+          "summary": ["Working as CrossFit Level 1 Certified Trainer", "Teaching CrossFit classes of 10 to 20 people multiple times a day, several days a week"],
+          "highlights": ["Stregth and conditiong workouts with focus on long terms progression of clients"]
+        }
+      ]
     }
   ],
   "education": [
@@ -204,7 +247,7 @@
       "institution": "Slezska Univerzita v Opave",
       "area": "Marketing and Management",
       "website": "https://www.slu.cz/opf/en/",
-      "studyType": "Masters",
+      "studyType": "Master's degree in ",
       "startDate": "2015",
       "endDate": "2017",
       "image": ["opf.png"],
@@ -214,7 +257,7 @@
       "institution": "Technical University of Ostrava",
       "area": "Marketing and Management",
       "website": "https://www.ekf.vsb.cz/en",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor degree in ",
       "startDate": "2011",
       "endDate": "2015",
       "image": ["ekf.png"],
@@ -227,16 +270,16 @@
     {
       "institution": "Brno University of Technology",
       "area": "Software Development",
-      "studyType": "Bachelor",
+      "studyType": "",
       "startDate": "2010",
       "endDate": "2011",
       "image": ["vut.png"],
-      "highlights": ["Basics of IT and software development", "Premateruly terminated study, got back to software development few years later"]
+      "highlights": ["Basics of IT and software development", "Premateruly terminated study, got back to software development after a few years"]
     },
     {
       "institution": "Industrial High School of Electrotechnics and IT, Frenstat pod Radhostem",
       "area": "Electrotechnic/Computers Technology",
-      "studyType": "Graduation",
+      "studyType": "Graduated from ",
       "startDate": "2006",
       "endDate": "2010",
       "image": ["spse.png"],

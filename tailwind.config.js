@@ -9,6 +9,9 @@ module.exports = {
       title: ['Iceberg'],
       subtitle: ['Iceland'],
     },
+    flex: {
+      2: '2 2 0%',
+    },
     extend: {
       colors: {
         gray: colors.warmGray,

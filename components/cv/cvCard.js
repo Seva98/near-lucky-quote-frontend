@@ -4,13 +4,11 @@ import Title from '../common/title';
 import Button from '../common/button';
 import Image from 'next/image';
 import { useState } from 'react';
-import useGlitch from '../../lib/useGlitch';
-import Chevron from '../icons/chevron';
 
 const CvCard = ({ work }) => {
   const { company, positions } = work;
 
-  const [showDetails, setShowDetails] = useState(false);
+  const [showDetails, setShowDetails] = useState('');
 
   return (
     <Card>
@@ -32,47 +30,24 @@ const CvCard = ({ work }) => {
             {summary.map((s) => (
               <p>{s}</p>
             ))}
-            {showDetails ? (
+            {showDetails === position ? (
               <>
                 <ul>
                   {highlights.map((h) => (
                     <li key={Math.random()}>{h}</li>
                   ))}
                 </ul>
-                <Button className="text-right" onClick={() => setShowDetails(!showDetails)} up={showDetails}>
-                  Read Less
+                <Button className="text-right" onClick={() => setShowDetails('')} up={showDetails}>
+                  Less Details
                 </Button>
               </>
             ) : (
-              <Button className="text-right" onClick={() => setShowDetails(!showDetails)} up={showDetails}>
-                Read More
+              <Button className="text-right" onClick={() => setShowDetails(position)} up={showDetails}>
+                More Details
               </Button>
             )}
           </div>
         ))}
-
-      {/* <div className="w-8 h-8">
-          <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src="/icons/python.svg" />
-        </div>
-        <div className="w-8 h-8">
-          <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src="/icons/react.svg" />
-        </div>
-        <div className="w-8 h-8">
-          <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src="/icons/rhel.svg" />
-        </div>
-        <div className="w-8 h-8">
-          <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src="/icons/splunk.svg" />
-        </div>
-        <div className="w-8 h-8">
-          <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src="/icons/typescript.svg" />
-        </div>
-      </div>
-      {summary.map((s) => (
-        <p className="lead">{s}</p>
-      ))}
-      {summary.map((s) => (
-        <blockquote>{s}</blockquote>
-      ))} */}
     </Card>
   );
 };
