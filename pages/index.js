@@ -16,8 +16,9 @@ import Progress from '../components/common/progress';
 import SkillSet from '../components/cv/skillSet';
 import Intro from '../components/cv/intro';
 import { useState } from 'react';
+import FreelancingCard from '../components/cv/freelancingCard';
 
-export default function Home({ work, education }) {
+export default function Home({ work, education, freelancing }) {
   const categories = ['Full Time', 'Freelancing'];
   const [activeCategory, setActiveCategory] = useState(categories[0]);
 
@@ -40,9 +41,7 @@ export default function Home({ work, education }) {
             </Button>
           ))}
         </div>
-        {work.map((w) => (
-          <CvCard work={w} key={w.company} />
-        ))}
+        {activeCategory === categories[0] ? work.map((w) => <CvCard work={w} key={w.company} />) : freelancing.map((w) => <FreelancingCard work={w} key={w.company} />)}
         <Hr />
         <Title level={2}>Formal education</Title>
         {education.map((edu) => (
@@ -54,13 +53,13 @@ export default function Home({ work, education }) {
 }
 
 export async function getStaticProps() {
-  const { work, education, skills } = cv;
+  const { work, education, freelancing } = cv;
 
   return {
     props: {
       work,
       education,
-      skills,
+      freelancing,
     },
   };
 }

@@ -18,7 +18,118 @@
       }
     ]
   },
-  "freelancing": [],
+  "freelancing": [
+    {
+      "company": "Code Marketer s.r.o.",
+      "website": "https://resume.sevcik.dev/",
+      "subtitle": "I am sole owner of this LLC company based in the Czech Republic and is registred VAT payer in the EU",
+      "description": ["Below you can find a list of recent notable long term projects I've worked on in parallel with full time job"],
+      "positions": [
+        {
+          "position": "This website - resume.sevcik.dev",
+          "shortDes": "Next.js/React application",
+          "technologies": ["nextjs", "react"],
+          "summary": [
+            "Next.js may be overkill for a simple portfolio website but I love how easy it is to start with Next.js project, use their Tailwind template and deploy quickly via Vercel",
+            "The goal was to showcase work with my the most favorite React framework Next.js"
+          ],
+          "highlights": [
+            "I love Next.js and Vercel integration, the process is very convinient from starting new project to deploying",
+            "My previous Resume website has been created with Jekyll but since then I've worked on several React/Next.js projects that utilized Tailwind and I wanted my Resume website to reflect usage of technologies"
+          ]
+        },
+        {
+          "position": "Sberna Krmelin - sbernakrmelin.cz",
+          "shortDes": "Next.js/React application",
+          "technologies": ["nextjs", "react", "mongo"],
+          "summary": ["React web application built for recycling company with role based admin system and REST API utilizing Next.js, MongoDB and Bootstrap v5"],
+          "highlights": [
+            "Another project utilizing my favorite React framework Next.js",
+            "The goal was to build fully fledged admin system with role based permissions where owner and employees could edit price list and some parts of the homepage with current promotions and info messages",
+            "Site also has REST API which will be later used in mobile application",
+            "Design has been created with Bootstrap v5"
+          ]
+        },
+        {
+          "position": "jumping.kayali.cz",
+          "shortDes": "Next.js/React application",
+          "technologies": ["nextjs", "react", "mongo"],
+          "summary": [
+            "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
+            "One of the notable apps I've created is <a href='https://wodtimecalculator.com/' target='_blank'>WOD Time Calculator</a>."
+          ],
+          "highlights": [
+            "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
+            "Web apps in Vue.js, React and MongoDB",
+            "Blogs in Jekyll or Wordpress",
+            "Online shops in PrestaShop and WooCommerce",
+            "Online shop created in React for local farm delivery",
+            "iOS apps in Swift",
+            "Android apps in Java/Kotlin",
+            "Online marketing - focus on content marketing and newsletters",
+            "Social media marketing - focus on Instagram and Facebook sales boosts"
+          ]
+        },
+        {
+          "position": "WOD Time Calculator - wodtimecalculator.com",
+          "shortDes": "Vue.js web/mobile application",
+          "technologies": ["vue", "mongo"],
+          "summary": [
+            "WTC has been one of my very first JavaScript projects that I have created back in 2017",
+            "The goal of the WTC app is to help users calculate good time or score to beat of any random CrossFit workout",
+            "Current v4 of WTC has been built with Vue.js, MongoDB, MaterialUI and had integrated PayPal for premium subscriptions"
+          ],
+          "highlights": [
+            "v1 - created as the first ever project after I learned basics of HTML/CSS/JS, just a single 300 line .js file + using jQuery UI components",
+            "v2 - improved design with Bootstrap, improved process of core calculations, refactored most of the JavaScript to make site manageable ",
+            "v3 - rebuilt app for mobile, in Swift for iOS and in Kotlin for Android, this was serious rework with huge improvment of calculation algorithm and ability to enter wider variety of workouts",
+            "v4 - the last huge update that was released for web and iOS, input of workouts was simplified and allowed entering even the most advanced workouts, added a lot of functionality like ability to log workouts, save user's workouts, advancing searching through workouts, for some time WTC also included subscribers section for access to personal workouts programming"
+          ]
+        },
+
+        {
+          "position": "Shoptet - online shops",
+          "shortDes": "React web application",
+          "technologies": ["javascript"],
+          "summary": [
+            "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
+            "One of the notable apps I've created is <a href='https://wodtimecalculator.com/' target='_blank'>WOD Time Calculator</a>."
+          ],
+          "highlights": [
+            "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
+            "Web apps in Vue.js, React and MongoDB",
+            "Blogs in Jekyll or Wordpress",
+            "Online shops in PrestaShop and WooCommerce",
+            "Online shop created in React for local farm delivery",
+            "iOS apps in Swift",
+            "Android apps in Java/Kotlin",
+            "Online marketing - focus on content marketing and newsletters",
+            "Social media marketing - focus on Instagram and Facebook sales boosts"
+          ]
+        },
+        {
+          "position": "Lucni dvur",
+          "shortDes": "React web application",
+          "technologies": ["nextjs", "react", "mongo"],
+          "summary": [
+            "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
+            "One of the notable apps I've created is <a href='https://wodtimecalculator.com/' target='_blank'>WOD Time Calculator</a>."
+          ],
+          "highlights": [
+            "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
+            "Web apps in Vue.js, React and MongoDB",
+            "Blogs in Jekyll or Wordpress",
+            "Online shops in PrestaShop and WooCommerce",
+            "Online shop created in React for local farm delivery",
+            "iOS apps in Swift",
+            "Android apps in Java/Kotlin",
+            "Online marketing - focus on content marketing and newsletters",
+            "Social media marketing - focus on Instagram and Facebook sales boosts"
+          ]
+        }
+      ]
+    }
+  ],
   "work": [
     {
       "company": "Novartis",
@@ -106,29 +217,6 @@
         "Long term project of tracking key production statistics of upcoming electric vehicles",
         "Long term project of IT tickets tracking app using custom force directed visualization for leader in automotive industry",
         "Continously worked on Splunk's app development focused on energetic management following ISO 50001 standard"
-      ]
-    },
-    {
-      "company": "Code Marketer s.r.o.",
-      "position": "CEO / FULL STACK DEVELOPER",
-      "website": "https://sevcik.dev",
-      "startDate": "05/2012",
-      "endDate": "Present",
-      "summary": [
-        "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
-        "One of the notable apps I've created is <a href='https://wodtimecalculator.com/' target='_blank'>WOD Time Calculator</a>."
-      ],
-      "technology": ["vue.png", "swift.png", "javascript.png", "marketing.png"],
-      "highlights": [
-        "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
-        "Web apps in Vue.js, React and MongoDB",
-        "Blogs in Jekyll or Wordpress",
-        "Online shops in PrestaShop and WooCommerce",
-        "Online shop created in React for local farm delivery",
-        "iOS apps in Swift",
-        "Android apps in Java/Kotlin",
-        "Online marketing - focus on content marketing and newsletters",
-        "Social media marketing - focus on Instagram and Facebook sales boosts"
       ]
     },
     {

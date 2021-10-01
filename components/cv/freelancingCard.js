@@ -5,21 +5,23 @@ import Button from '../common/button';
 import Image from 'next/image';
 import { useState } from 'react';
 
-const CvCard = ({ work }) => {
-  const { company, positions, description } = work;
+const FreelancingCard = ({ work }) => {
+  const { company, positions, description, subtitle } = work;
 
   const [showDetails, setShowDetails] = useState('');
 
   return (
     <Card>
       <Title size={4}>{company}</Title>
+      <Subtitle>{subtitle}</Subtitle>
+      {description.map((d) => (
+        <p>{d}</p>
+      ))}
       {positions &&
-        positions.map(({ position, startDate, endDate, technologies, summary, highlights }) => (
+        positions.map(({ position, shortDes, technologies, summary, highlights }) => (
           <div key={company + position}>
             <Title size={2}>{position.replace('\n', '\n')}</Title>
-            <Subtitle>
-              {startDate} - {endDate}
-            </Subtitle>
+            <Subtitle>{shortDes}</Subtitle>
             <div className="-mt-4 mb-2 flex gap-x-3 ">
               {technologies.map((t) => (
                 <div className="w-8">
@@ -52,4 +54,4 @@ const CvCard = ({ work }) => {
   );
 };
 
-export default CvCard;
+export default FreelancingCard;
