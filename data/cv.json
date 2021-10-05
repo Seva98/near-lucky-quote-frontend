@@ -51,23 +51,14 @@
           ]
         },
         {
-          "position": "jumping.kayali.cz",
+          "position": "Private fitness streaming - jumping.kayali.cz",
           "shortDes": "Next.js/React application",
           "technologies": ["nextjs", "react", "mongo"],
-          "summary": [
-            "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
-            "One of the notable apps I've created is <a href='https://wodtimecalculator.com/' target='_blank'>WOD Time Calculator</a>."
-          ],
+          "summary": ["React video streaming platform built for Jumping Fitness instructor utilizing Next.js, MongoDB, Stripe and TailwindCSS"],
           "highlights": [
-            "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
-            "Web apps in Vue.js, React and MongoDB",
-            "Blogs in Jekyll or Wordpress",
-            "Online shops in PrestaShop and WooCommerce",
-            "Online shop created in React for local farm delivery",
-            "iOS apps in Swift",
-            "Android apps in Java/Kotlin",
-            "Online marketing - focus on content marketing and newsletters",
-            "Social media marketing - focus on Instagram and Facebook sales boosts"
+            "Site includes private membership section with videos-on-demand, payment process is handled by Stripe API",
+            "Site has admin section which is used to manage users, upload new videos, create livestreams and handle newsletter",
+            "For example, user can buy access to the livestream that becomes available at certain time, livestream will automatically become available at that time and it will be available for 7 more days after release"
           ]
         },
         {
@@ -77,54 +68,35 @@
           "summary": [
             "WTC has been one of my very first JavaScript projects that I have created back in 2017",
             "The goal of the WTC app is to help users calculate good time or score to beat of any random CrossFit workout",
-            "Current v4 of WTC has been built with Vue.js, MongoDB, MaterialUI and had integrated PayPal for premium subscriptions"
+            "Current v4 of WTC has been built with Vue.js, MongoDB, MaterialUI and had integrated PayPal for premium membership"
           ],
           "highlights": [
             "v1 - created as the first ever project after I learned basics of HTML/CSS/JS, just a single 300 line .js file + using jQuery UI components",
             "v2 - improved design with Bootstrap, improved process of core calculations, refactored most of the JavaScript to make site manageable ",
             "v3 - rebuilt app for mobile, in Swift for iOS and in Kotlin for Android, this was serious rework with huge improvment of calculation algorithm and ability to enter wider variety of workouts",
-            "v4 - the last huge update that was released for web and iOS, input of workouts was simplified and allowed entering even the most advanced workouts, added a lot of functionality like ability to log workouts, save user's workouts, advancing searching through workouts, for some time WTC also included subscribers section for access to personal workouts programming"
+            "v4 - the last huge update that was released for web and iOS, input of workouts was simplified and allowed entering even the most advanced workouts, added a lot of functionality like ability to log workouts, save user's workouts, advanced search of workouts, for some time WTC also included subscribers section for access to personal workouts programming"
           ]
         },
 
         {
           "position": "Shoptet - online shops",
-          "shortDes": "React web application",
-          "technologies": ["javascript"],
-          "summary": [
-            "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
-            "One of the notable apps I've created is <a href='https://wodtimecalculator.com/' target='_blank'>WOD Time Calculator</a>."
-          ],
+          "shortDes": "Vanilla CSS/JavaScript ecommerce customization",
+          "technologies": ["css", "javascript"],
+          "summary": ["Building several custom made designs for online shops build on Shoptet platform"],
           "highlights": [
-            "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
-            "Web apps in Vue.js, React and MongoDB",
-            "Blogs in Jekyll or Wordpress",
-            "Online shops in PrestaShop and WooCommerce",
-            "Online shop created in React for local farm delivery",
-            "iOS apps in Swift",
-            "Android apps in Java/Kotlin",
-            "Online marketing - focus on content marketing and newsletters",
-            "Social media marketing - focus on Instagram and Facebook sales boosts"
+            "Shoptet is very well known Czech online ecommerce platform that is very user friendly but customizing their themes is not easy",
+            "Thankfully Shoptet allows to add any custom code to <head> tag which makes any custom changes possible, I've made custom made themes for several clients"
           ]
         },
         {
           "position": "Lucni dvur",
           "shortDes": "React web application",
-          "technologies": ["nextjs", "react", "mongo"],
-          "summary": [
-            "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
-            "One of the notable apps I've created is <a href='https://wodtimecalculator.com/' target='_blank'>WOD Time Calculator</a>."
-          ],
+          "technologies": ["react", "wordpress"],
+          "summary": ["React application with WordPress Woocommerce bridge for online delivery"],
           "highlights": [
-            "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
-            "Web apps in Vue.js, React and MongoDB",
-            "Blogs in Jekyll or Wordpress",
-            "Online shops in PrestaShop and WooCommerce",
-            "Online shop created in React for local farm delivery",
-            "iOS apps in Swift",
-            "Android apps in Java/Kotlin",
-            "Online marketing - focus on content marketing and newsletters",
-            "Social media marketing - focus on Instagram and Facebook sales boosts"
+            "React bridge between already working WordPress/Woocommerce website has been made",
+            "Client wanted to have simplfied single-page checkout page with custom admin system where he could plan the routes for his delivery service based on orders",
+            "I've leveraged client's current Woocommerce instalation, created React app that communicated with it via API, for example, I was able to get list products, create orders, get orders or change orders status"
           ]
         }
       ]
