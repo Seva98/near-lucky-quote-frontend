@@ -1,8 +1,5 @@
 import cv from '../data/cv.json';
-
-import Head from 'next/head';
 import Button from '../components/common/button';
-import Card from '../components/common/card';
 import Hr from '../components/common/hr';
 import Layout from '../components/common/layout';
 import Title from '../components/common/title';
@@ -10,11 +7,9 @@ import Logo from '../components/logo';
 import CvCard from '../components/cv/cvCard';
 import EducationCard from '../components/cv/educationCard';
 import Subtitle from '../components/common/subtitle';
-import Image from 'next/image';
-import Link from 'next/link';
-import Progress from '../components/common/progress';
 import SkillSet from '../components/cv/skillSet';
 import Intro from '../components/cv/intro';
+import Links from '../components/cv/links';
 import { useState } from 'react';
 import FreelancingCard from '../components/cv/freelancingCard';
 
@@ -24,10 +19,15 @@ export default function Home({ work, education, freelancing }) {
 
   return (
     <Layout>
-      <div className="my-12 max-w-3xl mx-auto">
+      <div className="my-12">
         <Logo />
-        {/* <Title level={1}>Ing. Ondrej Sevcik</Title>
-        <Subtitle>Full Stack Splunk, React and (to be) Blockchain Developer</Subtitle>
+        <div className="text-center">
+          <Title level={1} className="ml-auto mr-auto">
+            Ing. Ondrej Sevcik
+          </Title>
+          <Subtitle>Full Stack Splunk, React and (to be) Blockchain Developer</Subtitle>
+          <Links />
+        </div>
         <Intro />
         <Title level={2}>Skill set</Title>
         <Subtitle>Overview of primary skills I have used over years</Subtitle>
@@ -36,7 +36,7 @@ export default function Home({ work, education, freelancing }) {
         <Title level={2}>Work experience</Title>
         <div className="flex justify-center">
           {categories.map((c) => (
-            <Button active={activeCategory === c} onClick={() => setActiveCategory(c)}>
+            <Button active={activeCategory === c ? 1 : 0} key={c} onClick={() => setActiveCategory(c)}>
               {c}
             </Button>
           ))}
@@ -46,7 +46,7 @@ export default function Home({ work, education, freelancing }) {
         <Title level={2}>Formal education</Title>
         {education.map((edu) => (
           <EducationCard education={edu} key={edu.institution} />
-        ))} */}
+        ))}
       </div>
     </Layout>
   );

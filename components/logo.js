@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import useGlitch from '../lib/useGlitch';
 
@@ -7,7 +6,7 @@ const Logo = () => {
 
   return (
     <div className="flex justify-center mb-12">
-      <Image src="/logo.png" width="300" height="300" className={glitch} />
+      <Image src="/logo.svg" width="300" height="300" className={glitch} />
     </div>
   );
 };

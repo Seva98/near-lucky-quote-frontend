@@ -4,27 +4,10 @@ import Card from '../common/card';
 const Intro = () => {
   return (
     <>
-      <div className="-mt-4 mb-2 flex gap-x-3 ">
-        <a href="https://www.linkedin.com/in/ondrej-sevcik/" target="_blank">
-          <div className="w-8 bg-white rounded-lg">
-            <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src={`/icons/linkedin.svg`} />
-          </div>
-        </a>
-        <a href="https://github.com/Seva98" target="_blank">
-          <div className="w-8">
-            <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src={`/icons/github.png`} />
-          </div>
-        </a>
-        <a href="https://github.com/Seva98/" target="_blank">
-          <div className="w-8 ">
-            <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src={`/icons/stackoverflow.svg`} />
-          </div>
-        </a>
-      </div>
       <p className="font-subtitle text-xl">“Develop a passion for learning. If you do, you will never cease to grow.” – Anthony J. D’Angelo</p>
       <Card>
         <div className="items-center gap-x-4 w-full">
-          <div className="float-left w-80 mb-4 mr-6">
+          <div className="float-left w-full sm:w-80 mb-4 mr-6">
             <Image src="/images/selfie.jpeg" width={350} height={444} />
           </div>
           <div>

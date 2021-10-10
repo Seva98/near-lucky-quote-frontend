@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import useGlitch from '../../lib/useGlitch';
 
 const Title = ({ children, className, style, level, size }) => {

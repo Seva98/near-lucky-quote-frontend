@@ -1,5 +1,4 @@
 import useGlitch from '../../lib/useGlitch';
-import Title from '../common/title';
 
 const Card = (props) => {
   const { children, className } = props;

@@ -19,6 +19,17 @@
     @apply text-lg;
     @apply my-5;
   }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  blockquote,
+  .font-subtitle {
+    @apply mx-1 sm:mx-0;
+  }
   blockquote {
     @apply border-white;
     @apply p-4;
@@ -29,10 +40,7 @@
     @apply font-semibold;
   }
   a {
-    @apply text-teal-primary;
-  }
-  a:hover {
-    @apply text-white;
+    @apply bg-gradient-to-r from-pink-primary to-teal-primary bg-clip-text text-transparent;
   }
   ul {
     @apply my-5;
@@ -76,7 +84,8 @@ hr {
   height: 2px;
 }
 
-button:hover {
+button:hover,
+a:hover {
   color: white;
   --tw-drop-shadow: drop-shadow(-40px -20px 1px rgba(241, 85, 255, 0.8)) drop-shadow(40px 20px 1px rgba(119, 255, 255, 0.8));
   filter: var(--tw-filter);

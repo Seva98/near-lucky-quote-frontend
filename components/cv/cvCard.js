@@ -21,20 +21,20 @@ const CvCard = ({ work }) => {
               {startDate} - {endDate}
             </Subtitle>
             <div className="-mt-4 mb-2 flex gap-x-3 ">
-              {technologies.map((t) => (
-                <div className="w-8">
-                  <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src={`/icons/${t}.svg`} />
+              {technologies.map((technology) => (
+                <div className="w-8" key={company + position + technology}>
+                  <Image className="-my-5" width="100%" height="100%" layout="responsive" objectFit="contain" src={`/icons/${technology}.svg`} />
                 </div>
               ))}
             </div>
             {summary.map((s) => (
-              <p>{s}</p>
+              <p key={s}>{s}</p>
             ))}
             {showDetails === position ? (
               <>
                 <ul>
                   {highlights.map((h) => (
-                    <li key={Math.random()}>{h}</li>
+                    <li key={h}>{h}</li>
                   ))}
                 </ul>
                 <Button className="text-right" onClick={() => setShowDetails('')} up={showDetails}>

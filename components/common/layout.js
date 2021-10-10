@@ -5,8 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Meta />
-      {/* <Navbar /> */}
-      <div className="min-h-screen">
+      <div className="min-h-screen max-w-screen-sm mx-auto">
         <main>{children}</main>
       </div>
       <Footer />
