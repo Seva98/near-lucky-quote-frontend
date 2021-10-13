@@ -23,11 +23,11 @@ export default function Home() {
         const tempWallet = await getWallet();
         setWallet(tempWallet);
         setAccountId(tempWallet.getAccountId());
+        setLoading(false);
       } catch (e) {
         console.log(e);
       }
     })();
-    setLoading(false);
   }, []);
 
   const signIn = () => {
