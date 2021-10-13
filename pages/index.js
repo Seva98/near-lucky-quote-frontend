@@ -56,14 +56,17 @@ export default function Home() {
 
   const getLuckyQuote = async () => {
     setLoading(true);
-    const result = await getLuckyQuoteFromNEAR(wallet);
-    const {
-      status: { SuccessValue },
-    } = result;
-    console.log(contractResponse);
-    const contractResponse = atob(SuccessValue).split('\\n');
-    setLuckyQuote(formattedQuote(contractResponse));
-    setInfoMessage(formattedInfo(contractResponse));
+    try {
+      const result = await getLuckyQuoteFromNEAR(wallet);
+      const {
+        status: { SuccessValue },
+      } = result;
+      const contractResponse = atob(SuccessValue).split('\\n');
+      setLuckyQuote(formattedQuote(contractResponse));
+      setInfoMessage(formattedInfo(contractResponse));
+    } catch (e) {
+      console.log(e);
+    }
     setLoading(false);
   };
 
