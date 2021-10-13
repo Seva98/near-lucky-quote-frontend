@@ -17,9 +17,9 @@ export default function Home() {
   const [luckyQuote, setLuckyQuote] = useState('');
 
   useEffect(() => {
-    setLoading(true);
     (async () => {
       try {
+        setLoading(true);
         const tempWallet = await getWallet();
         setWallet(tempWallet);
         setAccountId(tempWallet.getAccountId());
