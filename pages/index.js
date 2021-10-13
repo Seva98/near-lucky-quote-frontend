@@ -17,20 +17,22 @@ export default function Home() {
 
   useEffect(() => {
     setLoading(true);
-    try {
-      const tempWallet = getWallet();
-      setWallet(tempWallet);
-      setAccountId(tempWallet.getAccountId());
-    } catch (e) {
-      console.log(e);
-    }
+    (async () => {
+      try {
+        const tempWallet = await getWallet();
+        setWallet(tempWallet);
+        setAccountId(tempWallet.getAccountId());
+      } catch (e) {
+        console.log(e);
+      }
+    })();
     setLoading(false);
   }, []);
 
   const signIn = () => {
     setLoading(true);
     try {
-      wallet.requestSignIn(CONTRACT_ID);
+      wallet.requestSignIn(CONTRACT_ID, 'NEAR Lucky Quote Generator');
     } catch (e) {
       console.log(e);
     }
@@ -82,7 +84,7 @@ export default function Home() {
               <a href={`https://explorer.testnet.near.org/accounts/${accountId}`} target="_blank">
                 {accountId}
               </a>
-              , please click below to generate your Lucky Quote
+              {!luckyQuote && <span>, please click below to generate your Lucky Quote</span>}
             </div>
             {luckyQuote ? (
               <Card>
@@ -90,9 +92,9 @@ export default function Home() {
                   Your lucky quote
                 </Title>
                 <>
-                  <p className="font-subtitle text-xl">{luckyQuote}</p>
+                  <p className="font-subtitle text-2xl">{luckyQuote}</p>
                   {infoMessage.map((m) => (
-                    <p key={m} className="text-gray-300 text-sm">
+                    <p key={m} className="text-gray-300 text-md">
                       {m}
                     </p>
                   ))}
@@ -101,9 +103,7 @@ export default function Home() {
             ) : (
               <Button onClick={() => getLuckyQuote()}>Get lucky quote</Button>
             )}
-            <div className="absolute bottom-1 w-full">
-              <Button onClick={() => signOut()}>Sign Out</Button>
-            </div>
+            <Button onClick={() => signOut()}>Sign Out</Button>
           </>
         ) : (
           <Button onClick={() => signIn()}>Login with NEAR</Button>

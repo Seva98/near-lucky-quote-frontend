@@ -10,7 +10,7 @@ export default function Footer() {
           <div>© {new Date().getFullYear()} Code Marketer s.r.o. All Rights Reserved.</div>
           <div>
             <span>Made by </span>
-            <a href="https://sevcik.dev" className="w-min hover:text-gray-500" style={{ margin: '0 auto' }}>
+            <a href="https://resume.sevcik.dev" className="w-min hover:text-gray-500" style={{ margin: '0 auto' }}>
               sevcik.dev
             </a>
           </div>
